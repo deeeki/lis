@@ -4,17 +4,13 @@ A simple plaintext list parser/serializer
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line **with `github` option** to your application's Gemfile:
 
-    gem 'lis'
+    gem 'lis', github: 'deeeki/lis'
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install lis
 
 ## Usage
 
