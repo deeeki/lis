@@ -1,4 +1,3 @@
-# coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'lis/version'
@@ -8,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.version       = Lis::VERSION
   spec.authors       = ["deeeki"]
   spec.email         = ["deeeki@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{A simple plaintext list parser/serializer.}
+  spec.description   = %q{This gem can parse/serialize between Ruby hash/array and a plaintext list like Markdown.}
+  spec.homepage      = "https://github.com/deeeki/lis"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
